@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     background-color: var(--branco);
-
+    position: relative;
+    
 }
 
 .cabecalho__menu {
@@ -21,4 +22,14 @@
 
 .conteiner__imagem{
     padding: 1em;
+}
+.lista__menu{
+    display: none;
+    position: absolute;
+top:100%;
+    }
+    .conteiner_botao:checked~.lista__menu{
+        display:block;
+    }
+.container_botao{display: none;
 }
